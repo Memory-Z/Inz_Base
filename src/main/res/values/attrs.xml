@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleInputLayout">
+        <attr name="til_title_textAppearance" format="reference" />
+        <attr name="til_subtitle_textAppearance" format="reference" />
+        <attr name="til_edit_textAppearance" format="reference" />
+        <attr name="til_title" format="string" />
+        <attr name="til_subtitle" format="string" />
+        <attr name="til_edit_content" format="string" />
+        <attr name="til_title_icon" format="reference" />
+        <attr name="til_title_icon_tint" format="color" />
+        <attr name="til_show_subtitle" format="boolean" />
+        <attr name="til_show_title_icon" format="boolean" />
+        <attr name="til_edit_margin" format="dimension" />
+        <attr name="til_edit_background" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleQuestionLayout">
+        <attr name="tql_title_textAppearance" format="reference" />
+        <attr name="tql_subtitle_textAppearance" format="reference" />
+        <attr name="tql_title" format="string" />
+        <attr name="tql_subtitle" format="string" />
+        <attr name="tql_title_icon" format="reference" />
+        <attr name="tql_title_icon_tint" format="color" />
+        <attr name="tql_show_subtitle" format="boolean" />
+        <attr name="tql_show_title_icon" format="boolean" />
+        <attr name="tql_content_margin" format="dimension" />
+        <attr name="tql_content_background" format="reference" />
+        <attr name="tql_content_view_id" format="reference" />
+    </declare-styleable>
+</resources>
